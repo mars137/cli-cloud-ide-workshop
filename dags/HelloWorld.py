@@ -37,6 +37,8 @@ def model_task_func(transform_table: pd.DataFrame):
     from sklearn.preprocessing import StandardScaler
     from sklearn.ensemble import RandomForestClassifier
     
+    #data science
+    
     # use the table returned from the transform_table cell
     df = transform_table
     
